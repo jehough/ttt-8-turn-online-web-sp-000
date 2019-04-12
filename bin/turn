@@ -5,3 +5,4 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board (board)
 puts "Where would you like to go?"
 input = gets.strip
+turn (board)
