@@ -8,7 +8,7 @@ end
 
 def valid_move? (board, index)
   moves = nil
-  if index > 8
+  if (index > 8 || index < 0)
     moves = false
   elsif !(board[index] == " " || board[index] == "" ||board[index] == nil)
     moves = false
