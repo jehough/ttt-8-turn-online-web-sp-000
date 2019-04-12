@@ -4,5 +4,3 @@ puts "Welcome to Tic Tac Toe!"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board (board)
 turn (board, index, "X")
-input = gets.strip
-index = input_to_index(input)
