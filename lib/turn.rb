@@ -27,7 +27,7 @@ def move (board, index, player = "X")
   board[index] = player
 end
 
-def turn (board)
+def turn (board, index, player = "X")
   puts "Please enter 1-9:"
   if valid_move? 
     move 
