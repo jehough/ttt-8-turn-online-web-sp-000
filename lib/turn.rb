@@ -29,7 +29,6 @@ end
 
 def turn (board, index, player)
   puts "Please enter 1-9:"
-  gets.strip
   if valid_move? 
     move 
   else
