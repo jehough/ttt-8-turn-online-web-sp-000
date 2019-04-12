@@ -30,7 +30,7 @@ end
 def turn (board)
   puts "Please enter 1-9:"
   if valid_move? (board, index)
-    move (bo)
+    move (board, index, player = 'X')
   else
     turn
   end
