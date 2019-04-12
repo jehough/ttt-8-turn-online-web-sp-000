@@ -17,5 +17,13 @@ def valid_move? (board, index)
   end
   moves
 end
-def move (x)
-  
+
+def input_to_index (input)
+  num = input.to_i
+  num -= 1
+end
+
+def move (board, index, player = "X")
+  board[index] = player
+end
+
