@@ -27,8 +27,10 @@ def move (board, index, player = "X")
   board[index] = player
 end
 
-def turn (board, index, player)
+def turn (board, player)
   puts "Please enter 1-9:"
+  input = gets.strip
+  index = input_to_index(input)
   if valid_move? 
     move 
   else
