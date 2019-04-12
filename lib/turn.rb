@@ -28,7 +28,7 @@ def move (board, index, player = "X")
 end
 
 def turn (board, player)
-  puts "Please enter 1-9: "
+  puts "Please enter 1-9:"
   index = gets.strip
   if valid_move? 
     move 
