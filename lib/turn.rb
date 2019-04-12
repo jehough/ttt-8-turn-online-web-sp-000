@@ -7,15 +7,15 @@ def display_board (board)
 end
 
 def valid_move? (board, index)
-  move = nil
+  moves = nil
   if index > 8
-    move = false
+    moves = false
   elsif !(board[index] == " " || board[index] == "" ||board[index] == nil)
-    move = false
+    moves = false
   else
-    move = true
+    moves = true
   end
-  move
+  moves
 end
 
 def move
