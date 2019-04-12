@@ -17,6 +17,5 @@ def valid_move? (board, index)
   end
   moves
 end
-
 def move (x)
   
